@@ -1,0 +1,13 @@
+assignment/
+
+assignment.zip
+
+venv/
+
+.vscode/
+
+node_modules/
+
+*.pyc
+
+search.svg

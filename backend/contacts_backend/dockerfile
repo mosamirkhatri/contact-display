@@ -1,0 +1,6 @@
+FROM python:3
+ENV PYTHONUNBUFFERED=1
+WORKDIR /contacts_backend
+COPY requirements.txt /contacts_backend/
+RUN pip install -r requirements.txt
+COPY . /contacts_backend/
